@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - John</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/usuario.png" width="80" height="80" alt="Usuario" class="user-icon"> 
+        </a>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="header">
+                    <h1 class="title">Designing Dashboards with usability in mind</h1>
+                    <span class="tag">2020</span>
+                </div>
+                <p>Dashboard, User Experience Design</p>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                
+                <!-- Primera imagen -->
+                <div class="image-section">
+                    <img src="images/f1.jpg" alt="Dashboard Preview">
+                </div>
+                
+                <!-- Nuevo contenido debajo de la imagen f1.jpg -->
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                
+                <!-- Imagen del carro rojo -->
+                <div class="image-section">
+                    <img src="images/f2.jpg" alt="Carro rojo">
+                </div>
+                
+                <!-- Segunda imagen debajo del carro -->
+                <div class="image-section">
+                    <img src="images/f3.jpg" alt="Otra imagen">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://es-la.facebook.com/login/device-based/regular/login/">
+                <img src="images/facebook.png" width="50" height="50" alt="Facebook" class="social-icon"> 
+            </a>
+            <a href="https://www.instagram.com/accounts/login/">
+                <img src="images/ig.png" width="50" height="50" alt="Instagram" class="social-icon"> 
+            </a>
+            <a href="https://x.com/i/flow/login">
+                <img src="images/twitter.png" width="50" height="50" alt="Twitter" class="social-icon"> 
+            </a>
+            <a href="https://www.linkedin.com/home">
+                <img src="images/linkedin.png" width="50" height="50" alt="LinkedIn" class="social-icon"> 
+            </a>
+        </div>
+        <p>Copyright &copy; 2025 All rights reserved</p>
+    </footer>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f5f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 90%;
+            max-width: 800px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .tag {
+            background: #ff3d00;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .image-section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</body>
+</html>
