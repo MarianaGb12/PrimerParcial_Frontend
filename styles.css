@@ -244,25 +244,24 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* work detail */
+.work_detail {
+    padding: 70px;
+    background: white;
+    justify-content: center;
+}
 .container {
-    display: flex;
-    flex-direction: column;
+    background: white;
+    display: grid;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 20px;
 }
 
 .card {
     background: white;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 90%;
-    max-width: 800px;
-    margin: 20px 0;
-    text-align: left;
+    text-align: left;
 }
 
 .title {
