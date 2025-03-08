@@ -336,6 +336,80 @@ hr {
     margin: 40px 0;
 }
 
+/* contact */
+.contact-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    color: #040304;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-section p {
+    font-size: 18px;
+    color: #040304;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #040304;
+}
+
+.input-field, .textarea-field {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #555;
+}
+
+.textarea-field {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.submit-button {
+    display: inline-block;
+    text-align: center;
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #e04353;
+}
+
+
 /* footer */
 footer {
     text-align: center;
