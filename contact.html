@@ -8,18 +8,56 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img src="images/usuario.png" width="80" height="80" alt="Usuario" class="user-icon"> 
-        </a>
         <nav>
             <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="works.html">Works</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
+
+    <main>
+        <section class="contact-section">
+          <h1>Contact</h1>
+          <p>
+            Feel free to reach out if you have any questions, ideas, or just want to say hello!
+          </p>
+        
+          <div class="contact-form">
+            <!-- Nombre -->
+            <div class="form-group">
+              <label>Name<span aria-hidden="true">*</span>:</label>
+              <div class="input-field">Your name</div>
+            </div>
+            
+            <!-- Email -->
+            <div class="form-group">
+              <label>Email<span aria-hidden="true">*</span>:</label>
+              <div class="input-field">you@example.com</div>
+            </div>
+            
+            <!-- Asunto -->
+            <div class="form-group">
+              <label>Subject:</label>
+              <div class="input-field">Subject (optional)</div>
+            </div>
+            
+            <!-- Mensaje -->
+            <div class="form-group">
+              <label>Message<span aria-hidden="true">*</span>:</label>
+              <div class="textarea-field">Your message...</div>
+            </div>
+            
+            <!-- Botón -->
+            <div class="form-group">
+              <div class="submit-button">Send Message</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
     <footer>
         <div class="social-links">
             <a href="https://es-la.facebook.com/login/device-based/regular/login/">
