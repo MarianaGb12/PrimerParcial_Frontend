@@ -26,20 +26,25 @@ img {
 /* header */
 header {
     background-color:white;
-    padding: 0px;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li:first-child {
+    margin-right: 1140px;
 }
 
 nav ul li a {
@@ -47,6 +52,15 @@ nav ul li a {
     color: #333;
     font-size: 18px;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4b5c;
+}
+
+nav ul li a.active {
+    color: #ff4b5c;
 }
 
 /* content */
